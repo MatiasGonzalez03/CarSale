@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../estilos/navbaryfooter.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
@@ -37,19 +38,36 @@
             </div>
         </div>
     </nav>
-    <br>
-    <br>
-    <br>
-    <a name="FIAT" />
-    <h1>
-        <center>FIAT</center>
-    </h1>
-    <br>
-    <br>
-    <br>
+
+
+    <ul class="nav nav-tabs d-flex justify-content-center categoria ">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="cat-a" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Fiat</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="categorias/fiat-2000-adelante.html">Modelo 2000 para adelante</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="categorias/fiat-2000-atras.html">Modelo 2000 para atras</a></li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="cat-a" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Peugeot</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="categorias/peugeot-2000-adelante.html">Modelo 2000 para adelante</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="categorias/peugeot-2000-atras.html">Modelo 2000 para atras</a></li>
+            </ul>
+        </li>
+    </ul>
+
+
+
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row mx-auto">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/Palio2014.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -57,10 +75,11 @@
                         <p class="card-text">Modelo: 2014</p>
                         <p class="card-text">Precio: $980000</p>
                         <p class="card-text">Kilometros 130.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/Uno 2016.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -68,10 +87,11 @@
                         <p class="card-text">Modelo: 2016</p>
                         <p class="card-text">Precio: $1150000</p>
                         <p class="card-text">Kilometros 105.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/Ducato2020.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -79,17 +99,16 @@
                         <p class="card-text">Modelo: 2020</p>
                         <p class="card-text">Precio: $6950000</p>
                         <p class="card-text">Kilometros 35.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
+
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row mx-auto">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/Toro2018.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -97,10 +116,11 @@
                         <p class="card-text">Modelo: 2018</p>
                         <p class="card-text">Precio: $3380000.</p>
                         <p class="card-text">Kilometros: 95.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/fiat6001978.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -108,10 +128,11 @@
                         <p class="card-text">Modelo: 1978.</p>
                         <p class="card-text">Precio: $1150000</p>
                         <p class="card-text">Kilometros 156.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/cronos2019.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -119,26 +140,18 @@
                         <p class="card-text">Modelo: 2020</p>
                         <p class="card-text">Precio: $6950000</p>
                         <p class="card-text">Kilometros: 31.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
 
 
-    <a name="PEUGEOT" />
-    <h1>
-        <center>PEUGEOT</center>
-    </h1>
-    <br>
-    <br>
-    <br>
+
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row mx-auto">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/205.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -146,10 +159,11 @@
                         <p class="card-text">Modelo: 1999/p>
                             <p class="card-text">Precio: $230000</p>
                             <p class="card-text">Kilometros 360.000</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/206.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -157,10 +171,11 @@
                         <p class="card-text">Modelo: 2011</p>
                         <p class="card-text">Precio: $690000</p>
                         <p class="card-text">Kilometros 140.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/208.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -168,17 +183,16 @@
                         <p class="card-text">Modelo: 2019</p>
                         <p class="card-text">Precio: $1900000</p>
                         <p class="card-text">Kilometros 50.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
+
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row mx-auto">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/307.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -186,10 +200,11 @@
                         <p class="card-text">Modelo: 2007</p>
                         <p class="card-text">Precio: $880000.</p>
                         <p class="card-text">Kilometros: 181.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/408.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -197,10 +212,11 @@
                         <p class="card-text">Modelo: 2020</p>
                         <p class="card-text">Precio: $3000000.</p>
                         <p class="card-text">Kilometros: 31.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="imagenes/405.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -208,6 +224,7 @@
                         <p class="card-text">Modelo: 1993</p>
                         <p class="card-text">Precio: $450000</p>
                         <p class="card-text">Kilometros: 335.000</p>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
                     </div>
                 </div>
             </div>
