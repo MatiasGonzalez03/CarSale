@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: white;
+    box-sizing: border-box;
+    background: url(AutoFondo.jpg) ;
+    background-size: cover;
+    background-attachment: absolute;
+}
+
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    background: #1e1e1e;
+}
+.sidebar .logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: #1e1e1e;
+    letter-spacing: 1px;
+}
+.sidebar .cont-menu{
+    margin: 0%;
+    list-style: none;
+}
+.sidebar .cont-menu .linea{
+    padding: 15px;
+    position: relative;
+    width: 200px;
+    border-bottom: 1px solid rgba(255, 255, 255,0.1);
+}
+.cont-menu .linea .oracion{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+    width: 100%;
+}
+.submenu{
+    position: absolute;
+    visibility: hidden;
+    background: #1e1e1e;
+    opacity: 0;
+    left: 99%;
+    top: -1%;
+}
+.sidebar .cont-menu .linea:hover > .submenu{
+    opacity: 1;
+    visibility: visible;
+}
+.sidebar .cont-menu .submenu .linea-submenu{
+    padding: 15px;
+    position: relative;
+    font-size: 17px;
+    width: 150px;
+    vertical-align: middle;
+    border-bottom: none;
+}
+
+#iconos i {
+    font-size: 25px;
+    padding: 0 8px;
+    color: azure;
+}
