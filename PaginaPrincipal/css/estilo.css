@@ -40,3 +40,7 @@
 #container-mapa {
     background-color: black;
 }
+
+.card {
+    margin: 60px;
+}
