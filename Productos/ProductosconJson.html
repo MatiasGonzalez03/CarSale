@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const headerTitle = document.querySelector('header');
+        const section = document.querySelector('section');
+        const requestURL = 'doc.json';
+        const request = new XMLHttpRequest(); //instancian objeto 
+        request.open('GET', requestURL); // setean el método, la url de api
+        request.responseType = 'json'; //definen el tipo de dato que les devuelve
+        request.send(); //envían la solicitud
+        request.onload = function() { //esperan la respuesta
+            const productos = request.response; //reciben la respuesta
+            //console.log(superheroes);
+
+        }
+    </script>
+</body>
+
+</html>

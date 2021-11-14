@@ -1,0 +1,17 @@
+{
+    "Productos": "Autos",
+    "Tipo": "Usados",
+    "active": true,
+    "Catalogo": [{
+            "nombre": "Fiat 600",
+            "kilometros": 29000,
+            "Precio": "$340000",
+            "img": []
+        },
+        {
+            "nombre": "Fiat 600",
+            "kilometros": 29000,
+            "Precio": "$340000",
+        }
+    ]
+}
