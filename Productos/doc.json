@@ -3,15 +3,47 @@
     "Tipo": "Usados",
     "active": true,
     "Catalogo": [{
-            "nombre": "Fiat 600",
-            "kilometros": 29000,
-            "Precio": "$340000",
-            "img": []
+            "nombre": "Fiat Cronos",
+            "kilometros": 31000,
+            "Precio": "$6950000",
+            "modelo": 2020
+            "img": ["imagenes/cronos2019.PNG"]
         },
         {
             "nombre": "Fiat 600",
-            "kilometros": 29000,
-            "Precio": "$340000",
+            "kilometros": 156000,
+            "Precio": "$115000",
+            "modelo": 1978
+            "img": ["imagenes/fiat6001978.PNG"]
+        },
+        {
+            "nombre": "Fiat Toro",
+            "kilometros": 95000,
+            "Precio": "$338000",
+            "modelo": 2018
+            "img": ["imagenes/Toro2018.PNG"]
+        },
+        {
+            "nombre": "Fiat Ducato",
+            "kilometros": 35000,
+            "Precio": "$6950000",
+            "modelo": 2020
+            "img": ["imagenes/Ducato2020.PNG"]
+        },
+        {
+            "nombre": "Fiat Uno",
+            "kilometros": 105000,
+            "Precio": "$115000",
+            "modelo": 2016
+            "img": ["imagenes/Uno 2016.PNG"]
+        },
+        {
+            "nombre": "Fiat Palio",
+            "kilometros": 130000,
+            "Precio": "$980000",
+            "modelo": 2014
+            "img": ["imagenes/Palio2014.PNG"]
         }
+
     ]
 }
