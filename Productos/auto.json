@@ -40,8 +40,7 @@
             "precio": "$6950000",
             "modelo": 2020,
             "img": "imagenes/Ducato2020.PNG",
-            "descripcion": "La camioneta Fiat Ducato es un vehiculo utilitario ideal para trabajar. Este vehiculo era propiedad de un cuentapropista que lo utilizaba para un reparto de productos alimenticios y esta cuidado impresionantemente. Gran oportunidad para quien desee este
-            tipo de rodados."
+            "descripcion": "La camioneta Fiat Ducato es un vehiculo utilitario ideal para trabajar. Este vehiculo era propiedad de un cuentapropista que lo utilizaba para un reparto de productos alimenticios y esta cuidado impresionantemente. Gran oportunidad para quien desee este tipo de rodados."
         },
         {
             "id": 5,
@@ -61,9 +60,8 @@
             "precio": "$980000",
             "modelo": 2014,
             "img": "imagenes/Palio2014.PNG",
-            "descripcion": "El Fiat Palio es de segundo dueño tiene algunos pequeños detalles de pintura, de mecanica esta excelente, es ideal como segundo auto familiar o primer auto para jovenes. Los papeles estan al día y es una excelente oportunidad dada la realción calidad
-            precio."
-        }
+            "descripcion": "El Fiat Palio es de segundo dueño tiene algunos pequeños detalles de pintura, de mecanica esta excelente, es ideal como segundo auto familiar o primer auto para jovenes. Los papeles estan al día y es una excelente oportunidad dada la realción calidad precio."
+        },
         {
             "id": 7,
             "marca": "Peugeot",
