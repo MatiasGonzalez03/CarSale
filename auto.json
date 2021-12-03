@@ -1,0 +1,151 @@
+{
+    "productos": "Autos",
+    "tipo": "Usados",
+    "active": true,
+    "catalogo": [{
+            "id": 1,
+            "marca": "Fiat",
+            "nombre": "Fiat Cronos",
+            "kilometros": 31000,
+            "precio": "$6950000",
+            "modelo": 2020,
+            "img": "../imagenes/cronos2019.PNG",
+            "descripcion": "El Fiat Cronos es un auto ideal para familia, espacioso, con buen baúl, tambien puede servir para trabajar en aplicaciones de transporte. Se encuentra en impecable estado de mecanica con un pequeño detalle de pintura en la parte de atras.",
+            "destacado": true,
+            "modernidad": "moderno"
+
+        },
+        {
+            "id": 2,
+            "marca": "Fiat",
+            "nombre": "Fiat 600",
+            "kilometros": 156000,
+            "precio": "$115000",
+            "modelo": 1978,
+            "img": "../imagenes/fiat6001978.PNG",
+            "descripcion": "Realmente para quienes gustan de estos autos es una oportunidad dado que se encuentra en impecable estado, papeles al día, y esta con todos sus componentes originales.",
+            "destacado": true,
+            "modernidad": "antiguo"
+        },
+        {
+            "id": 3,
+            "marca": "Fiat",
+            "nombre": "Fiat Toro",
+            "kilometros": 95000,
+            "precio": "$338000",
+            "modelo": 2018,
+            "img": "../imagenes/Toro2018.PNG",
+            "descripcion": "Este vehiculo se destaca por tener un motor 2.0, lo cual lo hace muy potente, ideal para transporte de mercaderias. Tiene detalles de chapa y deudas de multas, se encuentra en buen estado de mecanica.",
+            "destacado": false,
+            "modernidad": "moderno"
+        },
+        {
+            "id": 4,
+            "marca": "Fiat",
+            "nombre": "Fiat Ducato",
+            "kilometros": 35000,
+            "precio": "$6950000",
+            "modelo": 2020,
+            "img": "../imagenes/Ducato2020.PNG",
+            "descripcion": "La camioneta Fiat Ducato es un vehiculo utilitario ideal para trabajar. Este vehiculo era propiedad de un cuentapropista que lo utilizaba para un reparto de productos alimenticios y esta cuidado impresionantemente. Gran oportunidad para quien desee este tipo de rodados.",
+            "destacado": true,
+            "modernidad": "moderno"
+        },
+        {
+            "id": 5,
+            "marca": "Fiat",
+            "nombre": "Fiat Uno",
+            "kilometros": 105000,
+            "precio": "$115000",
+            "modelo": 2016,
+            "img": "../imagenes/Uno2016.PNG",
+            "descripcion": "El Fiat Uno es motor 1.2 lo cual lo hace muy economico e ideal para ciudad. Esta muy bien cuidado tanto de mecanica como de chapa y pintura. Tiene multas que se descuentan del valor del auto. Esta radicado en la ciudad de La Plata.",
+            "destacado": true,
+            "modernidad": "moderno"
+        },
+        {
+            "id": 6,
+            "marca": "Fiat",
+            "nombre": "Fiat Palio",
+            "kilometros": 130000,
+            "precio": "$980000",
+            "modelo": 2014,
+            "img": "../imagenes/Palio2014.PNG",
+            "descripcion": "El Fiat Palio es de segundo dueño tiene algunos pequeños detalles de pintura, de mecanica esta excelente, es ideal como segundo auto familiar o primer auto para jovenes. Los papeles estan al día y es una excelente oportunidad dada la realción calidad precio.",
+            "destacado": false,
+            "modernidad": "moderno"
+        },
+        {
+            "id": 7,
+            "marca": "Peugeot",
+            "nombre": "Peugeot 205",
+            "kilometros": 350000,
+            "precio": "$230000",
+            "modelo": 1999,
+            "img": "../imagenes/205.PNG",
+            "descripcion": "El Peugeot 205 es un auto economico, ideal para ciudad, tiene buen baúl para ser un auto chico, en este caso se encuentra en impecable estado.",
+            "destacado": true,
+            "modernidad": "antiguo"
+        },
+        {
+            "id": 8,
+            "marca": "Peugeot",
+            "nombre": "Peugeot 206",
+            "kilometros": 950000,
+            "precio": "$2165000",
+            "modelo": 2018,
+            "img": "../imagenes/206.PNG",
+            "descripcion": "Gran oferta! Realmente por el estado en que se encuentra este vehiculo y su precio es una oportunidad que no se puede dejar pasar.",
+            "destacado": true,
+            "modernidad": "moderno"
+        },
+        {
+            "id": 9,
+            "marca": "Peugeot",
+            "nombre": "Peugeot 208",
+            "kilometros": 95000,
+            "precio": "$1328000",
+            "modelo": 2007,
+            "img": "../imagenes/208.PNG",
+            "descripcion": "Es la versión full, con asientos de cuero, muy poco uso y muy cuidado. Motor 1.6, papeles al día.",
+            "destacado": true,
+            "modernidad": "moderno"
+        },
+        {
+            "id": 10,
+            "marca": "Peugeot",
+            "nombre": "Peugeot 307",
+            "kilometros": 181000,
+            "precio": "$880000",
+            "modelo": 2007,
+            "img": "../imagenes/307.PNG",
+            "descripcion": "Este Peugeot 307 tiene algunos detalles de pintura y cierto desgaste del motor, pero compensa con un precio accesible para el tipo de auto.",
+            "destacado": false,
+            "modernidad": "moderno"
+        },
+        {
+            "id": 11,
+            "marca": "Peugeot",
+            "nombre": "Peugeot 405",
+            "kilometros": 335000,
+            "precio": "$450000",
+            "modelo": 1995,
+            "img": "../imagenes/405.PNG",
+            "descripcion": "Es un auto con mucho quilometraje pero que se encuentra muy cuidado y a muy buen precio. Es un auto que pese a sus años tiene mucho confort.",
+            "destacado": false,
+            "modernidad": "antiguo"
+        },
+        {
+            "id": 12,
+            "marca": "Peugeot",
+            "nombre": "Peugeot 408",
+            "kilometros": 31000,
+            "precio": "$3000000",
+            "modelo": 2020,
+            "img": "../imagenes/408.PNG",
+            "descripcion": "Es un auto de alta gama, con alto nivel de confort. Es la version full, con asientos de cuero.",
+            "destacado": true,
+            "modernidad": "moderno"
+        }
+    ]
+}
