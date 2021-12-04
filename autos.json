@@ -12,7 +12,8 @@
             "img": "../imagenes/cronos2019.PNG",
             "descripcion": "El Fiat Cronos es un auto ideal para familia, espacioso, con buen baúl, tambien puede servir para trabajar en aplicaciones de transporte. Se encuentra en impecable estado de mecanica con un pequeño detalle de pintura en la parte de atras.",
             "destacado": true,
-            "modernidad": "moderno"
+            "modernidad": "moderno",
+            "active": true
 
         },
         {
@@ -25,7 +26,8 @@
             "img": "../imagenes/fiat6001978.PNG",
             "descripcion": "Realmente para quienes gustan de estos autos es una oportunidad dado que se encuentra en impecable estado, papeles al día, y esta con todos sus componentes originales.",
             "destacado": true,
-            "modernidad": "antiguo"
+            "modernidad": "antiguo",
+            "active": true
         },
         {
             "id": 3,
@@ -37,7 +39,8 @@
             "img": "../imagenes/Toro2018.PNG",
             "descripcion": "Este vehiculo se destaca por tener un motor 2.0, lo cual lo hace muy potente, ideal para transporte de mercaderias. Tiene detalles de chapa y deudas de multas, se encuentra en buen estado de mecanica.",
             "destacado": false,
-            "modernidad": "moderno"
+            "modernidad": "moderno",
+            "active": true
         },
         {
             "id": 4,
@@ -49,7 +52,8 @@
             "img": "../imagenes/Ducato2020.PNG",
             "descripcion": "La camioneta Fiat Ducato es un vehiculo utilitario ideal para trabajar. Este vehiculo era propiedad de un cuentapropista que lo utilizaba para un reparto de productos alimenticios y esta cuidado impresionantemente. Gran oportunidad para quien desee este tipo de rodados.",
             "destacado": true,
-            "modernidad": "moderno"
+            "modernidad": "moderno",
+            "active": true
         },
         {
             "id": 5,
@@ -61,7 +65,8 @@
             "img": "../imagenes/Uno2016.PNG",
             "descripcion": "El Fiat Uno es motor 1.2 lo cual lo hace muy economico e ideal para ciudad. Esta muy bien cuidado tanto de mecanica como de chapa y pintura. Tiene multas que se descuentan del valor del auto. Esta radicado en la ciudad de La Plata.",
             "destacado": true,
-            "modernidad": "moderno"
+            "modernidad": "moderno",
+            "active": true
         },
         {
             "id": 6,
@@ -73,7 +78,8 @@
             "img": "../imagenes/Palio2014.PNG",
             "descripcion": "El Fiat Palio es de segundo dueño tiene algunos pequeños detalles de pintura, de mecanica esta excelente, es ideal como segundo auto familiar o primer auto para jovenes. Los papeles estan al día y es una excelente oportunidad dada la realción calidad precio.",
             "destacado": false,
-            "modernidad": "moderno"
+            "modernidad": "moderno",
+            "active": true
         },
         {
             "id": 7,
@@ -85,7 +91,8 @@
             "img": "../imagenes/205.PNG",
             "descripcion": "El Peugeot 205 es un auto economico, ideal para ciudad, tiene buen baúl para ser un auto chico, en este caso se encuentra en impecable estado.",
             "destacado": true,
-            "modernidad": "antiguo"
+            "modernidad": "antiguo",
+            "active": true
         },
         {
             "id": 8,
@@ -97,7 +104,8 @@
             "img": "../imagenes/206.PNG",
             "descripcion": "Gran oferta! Realmente por el estado en que se encuentra este vehiculo y su precio es una oportunidad que no se puede dejar pasar.",
             "destacado": true,
-            "modernidad": "moderno"
+            "modernidad": "moderno",
+            "active": true
         },
         {
             "id": 9,
@@ -109,7 +117,8 @@
             "img": "../imagenes/208.PNG",
             "descripcion": "Es la versión full, con asientos de cuero, muy poco uso y muy cuidado. Motor 1.6, papeles al día.",
             "destacado": true,
-            "modernidad": "moderno"
+            "modernidad": "moderno",
+            "active": true
         },
         {
             "id": 10,
@@ -121,7 +130,8 @@
             "img": "../imagenes/307.PNG",
             "descripcion": "Este Peugeot 307 tiene algunos detalles de pintura y cierto desgaste del motor, pero compensa con un precio accesible para el tipo de auto.",
             "destacado": false,
-            "modernidad": "moderno"
+            "modernidad": "moderno",
+            "active": true
         },
         {
             "id": 11,
@@ -133,7 +143,8 @@
             "img": "../imagenes/405.PNG",
             "descripcion": "Es un auto con mucho quilometraje pero que se encuentra muy cuidado y a muy buen precio. Es un auto que pese a sus años tiene mucho confort.",
             "destacado": false,
-            "modernidad": "antiguo"
+            "modernidad": "antiguo",
+            "active": true
         },
         {
             "id": 12,
@@ -145,7 +156,21 @@
             "img": "../imagenes/408.PNG",
             "descripcion": "Es un auto de alta gama, con alto nivel de confort. Es la version full, con asientos de cuero.",
             "destacado": true,
-            "modernidad": "moderno"
+            "modernidad": "moderno",
+            "active": true
+        },
+        {
+            "id": 13,
+            "marca": "Peugeot",
+            "nombre": "Peugeot Partner",
+            "kilometros": 25000,
+            "precio": "$4000000",
+            "modelo": 2021,
+            "img": "../imagenes/Partner.PNG",
+            "descripcion": "Con su aspecto que inspira robustez y dinamismo, Partner Patagonica afirma su pertenencia al universo de los monovolumenes. Sus faros de vidrio liso y las protecciones reforzadas imponen un carácter robusto de confianza y solidez. ",
+            "destacado": true,
+            "modernidad": "moderno",
+            "active": false
         }
     ]
 }

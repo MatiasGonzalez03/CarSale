@@ -37,207 +37,43 @@
         </div>
     </nav>
 
-
-    <button type="button" class="btn btn-danger w-100 fs-5 btnFiat">Fiat</button>
-    <button type="button" class="btn btn-danger w-100 fs-5 fiatModerno">Fiat Mayor modelo 2000</button>
-    <button type="button" class="btn btn-danger w-100 fs-5 fiatAntiguo">Fiat Menor modelo 2000</button>
-    <button type="button" class="btn btn-warning w-100 fs-5 btnPeugeot">Peugeot</button>
-    <button type="button" class="btn btn-primary w-100 fs-5 verTodo">Ver todo</button>
-    <button type="button" class="btn btn-primary w-100 fs-5 autoModerno">Mayor modelo 2000</button>
-    <button type="button" class="btn btn-primary w-100 fs-5 autoAntiguo">Menor modelo 2000</button>
-
-    <!--
     <ul class="nav nav-tabs d-flex justify-content-center categoria ">
+
+        <li class="nav-item dropdown verTodo">
+            <a class="nav-link" id="cat-a" role="button" aria-expanded="false">Ver todos los productos</a>
+        </li>
+
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle btnFiat" id="cat-a" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Fiat</a>
+            <a class="nav-link dropdown-toggle " id="cat-a" data-bs-toggle="dropdown" role="button" aria-expanded="false">Fiat</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item btnFiat" href="categorias/fiat-2000-adelante.html">Modelo 2000 para adelante</a></li>
+                <li><a class="dropdown-item btnFiat">Todos los Fiat</a></li>
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="categorias/fiat-2000-atras.html">Modelo 2000 para atras</a></li>
+                <li><a class="dropdown-item fiatModerno ">Modelo 2000 para adelante</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item fiatAntiguo">Modelo 2000 para atras</a></li>
             </ul>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="cat-a" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Peugeot</a>
+            <a class="nav-link dropdown-toggle " id="cat-a" data-bs-toggle="dropdown" role="button" aria-expanded="false">Peugeot</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="categorias/peugeot-2000-adelante.html">Modelo 2000 para adelante</a></li>
+                <li><a class="dropdown-item btnPeugeot">Todos los Peugeot</a></li>
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="categorias/peugeot-2000-atras.html">Modelo 2000 para atras</a></li>
+                <li><a class="dropdown-item peugeotModerno">Modelo 2000 para adelante</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item peugeotAntiguo">Modelo 2000 para atras</a></li>
             </ul>
         </li>
     </ul>
--->
-
-    <!--
-    <div class="container">
-        <div class="row mx-auto">
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/Palio2014.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Fiat Palio</h5>
-                        <p class="card-text">Modelo: 2014</p>
-                        <p class="card-text">Precio: $980000</p>
-                        <p class="card-text">Kilometros 130.000</p>
-                        <a href="descripcionpalio.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/Uno2016.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Fiat Uno</h5>
-                        <p class="card-text">Modelo: 2016</p>
-                        <p class="card-text">Precio: $1150000</p>
-                        <p class="card-text">Kilometros 105.000</p>
-                        <a href="descripcionuno.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/Ducato2020.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Fiat Ducato</h5>
-                        <p class="card-text">Modelo: 2020</p>
-                        <p class="card-text">Precio: $6950000</p>
-                        <p class="card-text">Kilometros 35.000</p>
-                        <a href="descripcionducato.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row mx-auto">
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/Toro2018.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Fiat Toro</h5>
-                        <p class="card-text">Modelo: 2018</p>
-                        <p class="card-text">Precio: $3380000.</p>
-                        <p class="card-text">Kilometros: 95.000</p>
-                        <a href="descripciontoro.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/fiat6001978.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Fiat 600</h5>
-                        <p class="card-text">Modelo: 1978.</p>
-                        <p class="card-text">Precio: $1150000</p>
-                        <p class="card-text">Kilometros 156.000</p>
-                        <a href="descripcionfiat600.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/cronos2019.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Fiat Cronos</h5>
-                        <p class="card-text">Modelo: 2020</p>
-                        <p class="card-text">Precio: $6950000</p>
-                        <p class="card-text">Kilometros: 31.000</p>
-                        <a href="descripcioncronos.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
-
-    <div class="container">
-        <div class="row mx-auto">
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/205.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Peugeot 205</h5>
-                        <p class="card-text">Modelo: 1999 </p>
-                        <p class="card-text">Precio: $230000</p>
-                        <p class="card-text">Kilometros 360.000</p>
-                        <a href="descripcion205.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/206.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Peugeot 206</h5>
-                        <p class="card-text">Modelo: 2011</p>
-                        <p class="card-text">Precio: $690000</p>
-                        <p class="card-text">Kilometros 140.000</p>
-                        <a href="descripcion206.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/208.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Peugeot 208</h5>
-                        <p class="card-text">Modelo: 2019</p>
-                        <p class="card-text">Precio: $1900000</p>
-                        <p class="card-text">Kilometros 50.000</p>
-                        <a href="descripcion208.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row mx-auto">
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/307.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Peugeot 307</h5>
-                        <p class="card-text">Modelo: 2007</p>
-                        <p class="card-text">Precio: $880000.</p>
-                        <p class="card-text">Kilometros: 181.000</p>
-                        <a href="descripcion307.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/408.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Peugeot 408</h5>
-                        <p class="card-text">Modelo: 2020</p>
-                        <p class="card-text">Precio: $3000000.</p>
-                        <p class="card-text">Kilometros: 31.000</p>
-                        <a href="descripcion408.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/405.PNG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Peugeot 405</h5>
-                        <p class="card-text">Modelo: 1993</p>
-                        <p class="card-text">Precio: $450000</p>
-                        <p class="card-text">Kilometros: 335.000</p>
-                        <a href="descripcion405.html" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
--->
     <div class="album py-5 bg-light">
         <div class="container">
 
