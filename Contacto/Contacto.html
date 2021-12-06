@@ -42,22 +42,36 @@
             <h2>Contactanos</h2>
             <p class="fs-5">Estamos aca para ayudarte</p>
         </div>
-        <form action="">
-            <div class="mb-3">
-                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+        <form id="form" class="form" name="form1"action="">
+            <div class="form-control" >
+                <label for="mail">Ingrese su correo electronico</label>
+                <input type="text" class="form-control" id="email" placeholder="nombre@ejemplo.com" >
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error </small>
             </div>
-            <div class="mb-3">
-                <input type="text" class="form-control" id="nombre" placeholder="Lucas Mazzuquini" required>
+            <div class="form-control" class="mb-3">
+                <label for="nombre">Ingresa tu nombre y apellido</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Lucas Mazzuquini" >
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error </small>
             </div>
-            <div class="mb-3">
-                <input type="tel" class="form-control" id="tel" placeholder="11-5000-0000" required>
+            <div class="form-control" >
+                <label for="tel">Ingrese su numero de telefono</label>
+                <input type="tel" class="form-control" id="tel" placeholder="11-5000-0000" >
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error </small>
             </div>
-            <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+            <div class="form-control" class="mb-3">
+                <label for="Mensaje">Escribe tu mensaje</label>
+                <textarea class="form-control" name="mensaje" id="mensaje" rows="3" placeholder="Ingresa un minimo de 40 caracteres y un maximo de 240"></textarea>
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error </small>
             </div>
-            <div class="mb-3">
-                <button type="button" class="btn btn-primary w-100 fs-5" data-bs-target="#staticBackdrop" data-bs-toggle="modal">Enviar Mensaje</button>
-            </div>
+            <button class="btn btn-primary w-100 fs-5 mb-3">Enviar</button>
         </form>
     </div>
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -88,6 +102,8 @@
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="validacion.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 
