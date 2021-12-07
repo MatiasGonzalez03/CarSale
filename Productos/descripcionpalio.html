@@ -66,53 +66,58 @@
     </div>
 
 
-
-
-
-    <div class="container" id="contenedor-formulario " style="margin-top: 40px; border: 2px solid grey;">
-        <div id="titulo-formulario" class="text-center mb-4">
+    <div class="container" id="contenedor-formulario " style="margin-bottom: 20px; margin-top: 100px; border: 2px solid grey;">
+        <div id="titulo-formulario" style="margin-top: 30px;" class="text-center mb-4">
             <h2>Deje su comentario</h2>
         </div>
-        <form action="">
+        <form id="form" class="form" action="">
             <div class="container d-flex justify-content-center" style="margin-bottom: 10px;">
                 <label for="Puntaje" style="font-weight: 500;"class="form-label">Valoracion del producto :</label>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">1</label>
+                    <input class="form-check-input" style="margin-left: 1px;" type="radio" name="checkboxOptions" id="checkbox1" value="option1" required>
+                    <label class="form-check-label" style="margin-left: 5px;" for="checkbox1">1</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">2</label>
+                    <input class="form-check-input" type="radio" name="checkboxOptions" id="checkbox2" value="option2" required>
+                    <label class="form-check-label" for="checkbox2">2</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                    <label class="form-check-label" for="inlineRadio3">3</label>
+                    <input class="form-check-input" type="radio" name="checkboxOptions" id="checkbox3" value="option3" required>
+                    <label class="form-check-label" for="checkbox3">3</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                    <label class="form-check-label" for="inlineRadio4">4</label>
+                    <input class="form-check-input" type="radio" name="checkboxOptions" id="checkbox4" value="option4" required>
+                    <label class="form-check-label" for="checkbox4">4</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
-                    <label class="form-check-label" for="inlineRadio5">5</label>
+                    <input class="form-check-input" type="radio" name="checkboxOptions" id="checkbox5" value="option5" required>
+                    <label class="form-check-label" for="checkbox5">5</label>
                 </div>
             </div>
-            <div class="mb-3">
-                <input type="email" class="form-control" id="email" placeholder="Email" required>
+            <div class="form-control" class="mb-3">
+                <label for="email">Ingrese su correo electronico</label>
+                <input type="text" class="form-control" id="email" placeholder="nombre@ejemplo.com" >
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error </small>
             </div>
-            <div class="mb-3">
-                <input type="text" class="form-control" id="nombre" placeholder="Nombre y apellido" required>
+            <div class="form-control" class="mb-3">
+                <label for="nombre">Ingrese su nombre y apellido</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Maximiliano Dragone" >
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error </small>
             </div>
-            <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+            <div class="form-control" class="mb-3">
+                <label for="Mensaje">Escribe tu mensaje</label>
+                <textarea class="form-control" name="mensaje" id="mensaje" rows="3" placeholder="Ingresa un minimo de 40 caracteres y un maximo de 240" ></textarea>
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error </small>
             </div>
-            <div class="mb-3">
-                <button type="button" class="btn btn-danger w-100 fs-5">Enviar Mensaje</button>
-
-            </div>
+            <button class="btn btn-danger w-100 fs-5 mb-3">Enviar Mensaje</button>
         </form>
     </div>
-
 
     <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
         <p class="fs-5 px-3 pt-3">CarSales. &copy; Todos los derechos reservados 2021</p>
@@ -122,6 +127,8 @@
             <a href="https://twitter.com/carsales"><i class="bi bi-twitter"></i></a>
         </div>
     </footer>
+
+    <script src="validar.js"></script>
 </body>
 
 </html>
