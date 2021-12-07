@@ -1,7 +1,6 @@
 const form = document.getElementById('form');
 const nombre = document.getElementById('nombre');
 const email = document.getElementById('email');
-const tel = document.getElementById('tel');
 const mensaje = document.getElementById('mensaje');
 
 form.addEventListener('submit', e => {
@@ -13,9 +12,8 @@ form.addEventListener('submit', e => {
 function checkInputs() {
 	const nombreValue = nombre.value.trim();
 	const emailValue = email.value.trim();
-	const telValue = tel.value.trim();
 	const mensajeValue = mensaje.value.trim();
-	
+    
 	if(nombreValue === '') {
 		setErrorFor(nombre, 'Complete este campo');
 	} else if (!isNombre(nombreValue)) {
@@ -32,14 +30,6 @@ function checkInputs() {
 		setSuccessFor(email);
 	}
 	
-	if(telValue === '') {
-		setErrorFor(tel, 'Complete este campo');
-	} else if (!isTel(telValue)) {
-		setErrorFor(tel, 'Ingrese un telefono valido');
-	} else {
-		setSuccessFor(tel);
-	}
-	
 	if(mensajeValue === '') {
 		setErrorFor(mensaje, 'Complete este campo');
 	} else if (mensajeValue.length <= 40) {
@@ -49,6 +39,7 @@ function checkInputs() {
 	} else {
 		setSuccessFor(mensaje);
 	}
+
 }
 
 function setErrorFor(input, message) {
@@ -69,7 +60,3 @@ function isEmail(email) {
 function isNombre(nombre) {
 	return /^[a-zA-ZÀ-ÿ\s]+\ [a-zA-ZÀ-ÿ\s]{2,40}$/.test(nombre);
 }
-function isTel(tel) {
-	return /^\d{7,14}$/.test(tel);
-}
-
