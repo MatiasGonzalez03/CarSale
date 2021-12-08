@@ -62,6 +62,12 @@ function checkInputs() {
 	if (suma1 == true && suma2 == true && suma3 == true && suma4 == true ) {
 		modal.style.display = "block";
 	}
+	var cabe = document.getElementById('cabecera');
+	cabe.insertAdjacentHTML('afterbegin', nombreValue);
+
+	var par = document.getElementById('parrafo');
+	par.insertAdjacentHTML('afterbegin', emailValue);
+
 }
 
 function setErrorFor(input, message) {
@@ -88,9 +94,18 @@ function isTel(tel) {
 
 var modal = document.getElementById('myModal');
 
+var modal2 = document.getElementById('myModal2');
+
+var guardar = document.getElementById('guardar');
+
 var btnclose = document.getElementById("btn");
 
 var span = document.getElementsByClassName("close")[0];
+
+guardar.onclick = function() {
+	modal2.style.display = "block";
+	modal.style.display = "none";
+}
 
 span.onclick = function() {
     modal.style.display = "none";

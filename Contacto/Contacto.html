@@ -82,28 +82,27 @@
                 <span class="close">&times;</span>
               </div>
               <div class="modal-body">
-                <p>Estas seguro de querer enviar el comentario?</p>
+                <h6>Esta seguro de querer enviar el comentario?</h6>
               </div>
               <div class="modal-footer">
-                <button type="button" id="btn"class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-primary">Guardar cambios</button>
+                <button type="button" id="btn" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" id="guardar" class="btn btn-primary">Guardar cambios</button>
             </div>
         </div>
     </div>
 
-    <div class="modal-dialog">
+    <div id="myModal2" class="modal">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Contacto</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p>Estas seguro de querer enviar el comentario?</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-primary">Guardar cambios</button>
-          </div>
+            <div class="modal-header">
+                <h5 id="cabecera">:</h5>
+            </div>
+            <div class="modal-body">
+                <h6>Su comentario fue enviado con exito, recibira una respuesta en el correo: </h6><h6 id="parrafo"> a la brevedad. Saludos!</h6>
+            </div>
+            <div class="modal-footer">
+                <a href="Contacto.html"> <button type="button" id="btn" class="btn btn-primary" data-bs-dismiss="modal">Ok</button></a>
+
+            </div>
         </div>
     </div>
     
