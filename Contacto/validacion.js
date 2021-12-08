@@ -10,6 +10,11 @@ form.addEventListener('submit', e => {
 	checkInputs();
 });
 
+var suma1 = new Boolean(false);
+var suma2 = new Boolean(false);
+var suma3 = new Boolean(false);
+var suma4 = new Boolean(false);
+
 function checkInputs() {
 	const nombreValue = nombre.value.trim();
 	const emailValue = email.value.trim();
@@ -22,6 +27,7 @@ function checkInputs() {
 		setErrorFor(nombre, 'Ingrese un nombre valido');
 	} else {
 		setSuccessFor(nombre);
+		suma1 = Boolean(true);
 	}
 	
 	if(emailValue === '') {
@@ -30,6 +36,7 @@ function checkInputs() {
 		setErrorFor(email, 'Ingrese un mail valido');
 	} else {
 		setSuccessFor(email);
+		suma2 = Boolean(true);
 	}
 	
 	if(telValue === '') {
@@ -38,6 +45,7 @@ function checkInputs() {
 		setErrorFor(tel, 'Ingrese un telefono valido');
 	} else {
 		setSuccessFor(tel);
+		suma3 = Boolean(true);
 	}
 	
 	if(mensajeValue === '') {
@@ -48,6 +56,11 @@ function checkInputs() {
 		setErrorFor(mensaje, 'Ha sobrepasado el limite de caracteres permitidos');
 	} else {
 		setSuccessFor(mensaje);
+		suma4 = Boolean(true);
+	}
+
+	if (suma1 == true && suma2 == true && suma3 == true && suma4 == true ) {
+		modal.style.display = "block";
 	}
 }
 
@@ -73,3 +86,22 @@ function isTel(tel) {
 	return /^\d{7,14}$/.test(tel);
 }
 
+var modal = document.getElementById('myModal');
+
+var btnclose = document.getElementById("btn");
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+btnclose.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
