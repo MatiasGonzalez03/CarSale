@@ -3,7 +3,6 @@
         {
             "idUser": 1,
             "user":"matiasgonzalez@gmail.com",
-            "temp":"cacaguate72",
             "password": "a7094e2773053d00c18c3b5dee5ee45ff7c44a414159588ec591802919e35b7a",
             "perfil": "admin",
             "status":true
@@ -11,7 +10,6 @@
         {
             "idUser": 2,
             "user":"santiagobusnelli@gmail.com",
-            "temp": "argentinacampeon123",
             "password": "9be647dcf832385b207a6b718f0401e8f00fcae7fdab1e5174f0721655583d3c",
             "perfil": "admin",
             "status":true
