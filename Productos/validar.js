@@ -2,12 +2,18 @@ const form = document.getElementById('form');
 const nombre = document.getElementById('nombre');
 const email = document.getElementById('email');
 const mensaje = document.getElementById('mensaje');
+var modal = document.getElementById('myModal');
+
 
 form.addEventListener('submit', e => {
 	e.preventDefault();
 	
 	checkInputs();
 });
+
+var suma1 = new Boolean(false);
+var suma2 = new Boolean(false);
+var suma3 = new Boolean(false);
 
 function checkInputs() {
 	const nombreValue = nombre.value.trim();
@@ -20,6 +26,7 @@ function checkInputs() {
 		setErrorFor(nombre, 'Ingrese un nombre valido');
 	} else {
 		setSuccessFor(nombre);
+		suma1 = Boolean(true);
 	}
 	
 	if(emailValue === '') {
@@ -28,6 +35,7 @@ function checkInputs() {
 		setErrorFor(email, 'Ingrese un mail valido');
 	} else {
 		setSuccessFor(email);
+		suma2 = Boolean(true);
 	}
 	
 	if(mensajeValue === '') {
@@ -38,7 +46,15 @@ function checkInputs() {
 		setErrorFor(mensaje, 'Ha sobrepasado el limite de caracteres permitidos');
 	} else {
 		setSuccessFor(mensaje);
+		suma3 = Boolean(true);
 	}
+
+	if (suma1 == true && suma2 == true && suma3 == true ) {
+		modal.style.display = "block";
+	}
+
+	var cabe = document.getElementById('cabecera');
+	cabe.insertAdjacentHTML('afterbegin', nombreValue);
 
 }
 
