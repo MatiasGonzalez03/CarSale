@@ -12,10 +12,6 @@ request.onload = function() {
 }
 
 $(document).ready(function() {
-    $(".servicios").click(() => {
-        $(".BotonMostrarServicios").show();
-        $(".BotonocultarServicios").show();
-    })
 
     $(".BotonMostrarServicios").click(() => {
         $(".mostrarServicios").show();
@@ -28,8 +24,8 @@ $(document).ready(function() {
 })
 
 function mostrarJson() {
-    let mostrarServicios = '<div><p>El nombre del json es autos.json y se encuentra en la direccion: tpGrupalGrupo5/autos.json</p></div>';
-    mostrarServicios += '<div><p> Su estructura es:</p></div>';
+    let mostrarServicios = '<div><h2>El nombre del json es autos.json y se encuentra en la direccion: tpGrupalGrupo5/autos.json</h2></div>';
+    mostrarServicios += '<div><h3> Su estructura es:</h3></div>';
     mostrarServicios += '<div><p>"productos": ' + auto.productos + '</p></div>';
     mostrarServicios += '<div><p>"tipo": ' + auto.productos + '</p></div>';
     mostrarServicios += '<div><p>"active": ' + auto.active + '</p></div>';
