@@ -4,6 +4,9 @@ request.open('GET', url);
 request.responseType = 'json';
 request.send();
 var auto = '';
+var boton = document.getElementById('mostra');
+var boton2 = document.getElementById('oculta');
+
 
 request.onload = function() {
     auto = request.response;
@@ -13,14 +16,18 @@ request.onload = function() {
 
 $(document).ready(function() {
 
-    $(".BotonMostrarServicios").click(() => {
-        $(".mostrarServicios").show();
-    })
-
     $(".BotonocultarServicios").click(() => {
         $(".mostrarServicios").hide();
+        boton.style.display = 'block';
+        boton2.style.display = 'none';
     })
 
+    $(".BotonMostrarServicios").click(() => {
+        $(".mostrarServicios").show();
+        boton.style.display = 'none';
+        boton2.style.display = 'block';
+    })
+    
 })
 
 function mostrarJson() {
