@@ -20,7 +20,7 @@ function checkInputs() {
 	const emailValue = email.value.trim();
 	const telValue = tel.value.trim();
 	const mensajeValue = mensaje.value.trim();
-	
+
 	if(nombreValue === '') {
 		setErrorFor(nombre, 'Complete este campo');
 	} else if (!isNombre(nombreValue)) {
@@ -61,12 +61,13 @@ function checkInputs() {
 
 	if (suma1 == true && suma2 == true && suma3 == true && suma4 == true ) {
 		modal.style.display = "block";
+		const nombreee = nombre.value.trim();
+		const emailll = email.value.trim();
+		var cabe = document.getElementById('cabecera');
+		cabe.insertAdjacentHTML('afterbegin', nombreee);
+		var par = document.getElementById('parrafo');
+		par.insertAdjacentHTML('afterbegin', emailll);
 	}
-	var cabe = document.getElementById('cabecera');
-	cabe.insertAdjacentHTML('afterbegin', nombreValue);
-
-	var par = document.getElementById('parrafo');
-	par.insertAdjacentHTML('afterbegin', emailValue);
 
 }
 

@@ -71,7 +71,9 @@ $(document).ready(function() {
         $(".Peugeot").show();
     })
 
+
     $(".ordenarAsc").click(() => {
+        suma1 = Boolean(true);
         var JsonAsc = sortJSON(auto.catalogo, 'nombre', 'asc');
         console.log(JsonAsc);
         cartas(JsonAsc, "asc");
@@ -80,6 +82,7 @@ $(document).ready(function() {
         $(".undefined").hide();
         $(".destacadoss").hide();
     })
+    
     $(".ordenarDesc").click(() => {
         var JsonDesc = sortJSON(auto.catalogo, 'nombre', 'desc');
         console.log(JsonDesc);

@@ -51,10 +51,10 @@ function checkInputs() {
 
 	if (suma1 == true && suma2 == true && suma3 == true ) {
 		modal.style.display = "block";
+		const nombreee = nombre.value.trim();
+		var cabe = document.getElementById('cabecera');
+		cabe.insertAdjacentHTML('afterbegin', nombreee);
 	}
-
-	var cabe = document.getElementById('cabecera');
-	cabe.insertAdjacentHTML('afterbegin', nombreValue);
 
 }
 
