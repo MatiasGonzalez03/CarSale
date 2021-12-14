@@ -31,7 +31,7 @@ function AutosDestacados() {
                 elementGalery += '<p class="card-text"><b> Modelo: </b>' + element.modelo + ' </p>';
                 elementGalery += '<p class="card-text"><b> Kilometros: </b>' + element.kilometros + ' </p>';
                 elementGalery += '<p class="card-text"><b> Precio: </b>' + element.precio + ' </p>';
-                elementGalery += '<a href="#" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>';
+                elementGalery += '<a href="../Productos/descripcion.html?prodId=' + element.id + '" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>';
                 elementGalery += '<div class="d-flex justify-content-between align-items-center">';
                 elementGalery += '<div class="btn-group">';
                 elementGalery += '</div></div></div></div></div>';
