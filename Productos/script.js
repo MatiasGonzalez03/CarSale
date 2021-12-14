@@ -23,7 +23,7 @@ function cartas(catalogo, orden) {
             elementGalery += '<p class="card-text"><b> Modelo: </b>' + element.modelo + ' </p>';
             elementGalery += '<p class="card-text"><b> Kilometros: </b>' + element.kilometros + ' </p>';
             elementGalery += '<p class="card-text"><b> Precio: </b>' + element.precio + ' </p>';
-            elementGalery += '<a href="" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>';
+            elementGalery += '<a href="descripcion.html?prodId=' + element.id + '" class="btn btn-primary d-flex justify-content-center">Ver detalles</a>';
             elementGalery += '<div class="d-flex justify-content-between align-items-center">';
             elementGalery += '<div class="btn-group">';
             elementGalery += '</div></div></div></div></div>';
@@ -82,7 +82,7 @@ $(document).ready(function() {
         $(".undefined").hide();
         $(".destacadoss").hide();
     })
-    
+
     $(".ordenarDesc").click(() => {
         var JsonDesc = sortJSON(auto.catalogo, 'nombre', 'desc');
         console.log(JsonDesc);
