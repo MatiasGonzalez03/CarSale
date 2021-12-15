@@ -61,12 +61,6 @@ function checkInputs() {
 
 	if (suma1 == true && suma2 == true && suma3 == true && suma4 == true ) {
 		modal.style.display = "block";
-		const nombreee = nombre.value.trim();
-		const emailll = email.value.trim();
-		var cabe = document.getElementById('cabecera');
-		cabe.insertAdjacentHTML('afterbegin', nombreee);
-		var par = document.getElementById('parrafo');
-		par.insertAdjacentHTML('afterbegin', emailll);
 	}
 
 }
@@ -106,6 +100,12 @@ var span = document.getElementsByClassName("close")[0];
 guardar.onclick = function() {
 	modal2.style.display = "block";
 	modal.style.display = "none";
+	const nombreee = nombre.value.trim();
+	const emailll = email.value.trim();
+	var cabe = document.getElementById('cabecera');
+	cabe.insertAdjacentHTML('afterbegin', nombreee);
+	var par = document.getElementById('parrafo');
+	par.insertAdjacentHTML('afterbegin', emailll);
 }
 
 span.onclick = function() {
